@@ -4,13 +4,13 @@ from src.create_report import generate_report
 from src.threads_exec import get_results
 
 def main():
-    logger.info('=== INÍCIO DA EXECUÇÃO ===')
+    logger.info('=== START EXECUTION ===')
 
-    ano_destino = input('Digite o ano destino para verificação (ex: 2023): ')
+    ano_destino = input('Write the selected year to be checked (e.g.: 2023): ')
     try:
         # 1. Ler códigos
         codigos = read_codes()
-        logger.info(f'Total de códigos a processar: {len(codigos)}')
+        logger.info(f'Total number of codes: {len(codigos)}')
 
         # 2. Processar em paralelo
         resultados = get_results(codigos)
@@ -21,7 +21,7 @@ def main():
     except Exception as e:
         logger.critical(f'Erro fatal: {str(e)}')
     finally:
-        logger.info('=== FIM DA EXECUÇÃO ===')
+        logger.info('=== END EXECUTION ===')
 
 if __name__ == '__main__':
     main()
