@@ -15,7 +15,7 @@ python main.py
 python3 -m venv venv
 source venv/Scripts/activate
 pip install -r requirements.txt
-python main.py
+python3 main.py
 ```
 
 ### Ficheiro de entrada
