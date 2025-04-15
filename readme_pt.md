@@ -1,5 +1,20 @@
 # VERIFICAÇÃO DE PRESTAÇÃO DE CONTAS (CERTIDÃO PERMANENTE)
 
+### Requisitos
+Antes de começar, certifique-se de que tem o Python e o pip instalados no seu sistema.
+- Pode verificar executando:
+
+ ```bash
+python --version
+pip --version
+```
+ou, em sistemas Linux:
+
+ ```bash
+python3 --version
+pip3 --version
+```
+
 ### Para instalar (WINDOWS):
 
 ```bash
