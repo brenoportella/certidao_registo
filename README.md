@@ -1,7 +1,7 @@
 # VERIFY CERTIDÃO DE REGISTO (PORTUGAL)
 
  🇵🇹 [Portuguese version](https://github.com/brenoportella/certidao_registo/blob/main/readme_pt.md)
-### Requiriments
+### Requirements
 Before starting, make sure you have Python and pip installed on your system.
 - You can check by running:
 
