@@ -1,6 +1,8 @@
 # VERIFY CERTIDÃO DE REGISTO (PORTUGAL)
 
  🇵🇹 [Portuguese version](https://github.com/brenoportella/certidao_registo/blob/main/readme_pt.md)
+ A Python web scraper to extract payment years from Portuguese commercial registry certificates (Certidão de Registo). 
+ 
 ### Requirements
 Before starting, make sure you have Python and pip installed on your system.
 - You can check by running:
